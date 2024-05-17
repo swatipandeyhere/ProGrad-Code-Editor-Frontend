@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: white;
+}
+
+.wrapper {
+    background-color: black;
+    padding: 10px;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.previous {
+    margin-left: 15vw;
+}
+
+.next {
+    margin-left: 1vw;
+}
+
+.previous,
+.next {
+    width: 19px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+svg {
+    background-color: white;
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    color: black;
+    margin-left: 45vw;
+}
+
+.user-avatar {
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 15vw;
+}
+
+.sub-menu {
+    margin: 20px;
+}
+
+.sub-menu a span:last-of-type {
+    margin-left: 35vw;
+}
+
+#languages {
+    margin-left: 4.3vw;
+    border-radius: 5px;
+}
+
+.sub-menu a img {
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 16.7vw;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-content-left {
+    margin: 10px;
+    padding: 10px;
+    width: 50vw;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.question-header {
+    width: 44vw;
+    height: 10vh;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.question-header span:first-of-type {
+    float: left;
+}
+
+.question-header span:last-of-type {
+    float: right;
+    color: #2db55d;
+}
+
+.question-description {
+    width: 50vw;
+}
+
+.question-description p:first-of-type {
+    margin-bottom: 1rem;
+}
+
+.code-editor-window {
+    background-color: lightgray;
+    width: 44vw;
+    height: 73vh;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+
+button {
+    background-color: #2db55d;
+    color: white;
+    border: 0px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#button1 {
+    margin-left: 36vw;
+}
+
+#button2 {
+    margin-left: 1.7vw;
+}

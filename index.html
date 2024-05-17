@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProGrad Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/ProGrad-Favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <a href="https://prograd.org/" target="_blank">
+                <img src="images/ProGrad-Logo.png" alt="ProGrad-Logo" width="175px" height="29px">
+            </a>
+
+            <a href="#" class="previous">
+                <p>&#8249;</p>
+            </a>
+
+            <a href="#" class="next">
+                <p>&#8250;</p>
+            </a>
+
+            <a href="">
+                <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'>
+                    <path fillRule='evenodd'
+                        d='M12 4a9 9 0 110 18 9 9 0 010-18zm0 2a7 7 0 100 14 7 7 0 000-14zm0 1.634a1 1 0 01.993.883l.007.117-.001 3.774 2.111 1.162a1 1 0 01.445 1.253l-.05.105a1 1 0 01-1.254.445l-.105-.05-2.628-1.447a1 1 0 01-.51-.756L11 13V8.634a1 1 0 011-1zM16.235 2.4a1 1 0 011.296-.269l.105.07 4 3 .095.08a1 1 0 01-1.19 1.588l-.105-.069-4-3-.096-.081a1 1 0 01-.105-1.319zM7.8 2.4a1 1 0 01-.104 1.319L7.6 3.8l-4 3a1 1 0 01-1.296-1.518L2.4 5.2l4-3a1 1 0 011.4.2z'
+                        clipRule='evenodd'></path>
+                </svg>
+            </a>
+
+            <a href="#">
+                <img src="images/User-Avatar.png" alt="User-Avatar" class="user-avatar">
+            </a>
+        </div>
+
+        <div class="sub-menu">
+            <span>Description</span>
+            <a href="#">
+                <span>Solutions</span>
+            </a>
+
+            <select name="languages" id="languages">
+                <option value="Select Language">Select Language</option>
+                <option value="CPP">CPP</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="C">C</option>
+            </select>
+
+            <a href="#">
+                <img src="images/Reload.png" alt="Reload">
+            </a>
+        </div>
+
+        <div class="main-content">
+            <div class="main-content-left">
+                <div class="question-header">
+                    <span>1. Palindrome Number</span>
+                    <span>Easy</span>
+                </div>
+
+                <div class="question-body">
+                    <div class="question-description">
+                        <p>Given an integer <code>x</code>, return <code>true</code> <em>if</em> <code>x</code> <em>is a
+                            </em><strong>palindrome</strong>, <em>and</em> <code>false</code> <em>otherwise</em>.</p>
+                        <p>&nbsp;</p>
+                        <p>
+                            <strong>Example 1:</strong>
+                            <br><br>
+                        </p>
+                        <p>
+                        <p><strong>Input:</strong> x=121</p>
+                        <p><strong>Output:</strong> true</p>
+                        <p><strong>Explanation:</strong> 121 reads as 121 from left to right and from right to left.</p>
+                        </p>
+                        <br><br>
+
+                        <p>
+                            <strong>Example 2:</strong>
+                            <br><br>
+                        </p>
+                        <p>
+                        <p><strong>Input:</strong> x=-121</p>
+                        <p><strong>Output:</strong> false</p>
+                        <p><strong>Explanation:</strong> From left to right, it reads -121. From right to left, it
+                            becomes 121-. Therefore it is not <br> a palindrome.</p>
+                        </p>
+                        <br><br>
+
+                        <p>
+                            <strong>Example 3:</strong>
+                            <br><br>
+                        </p>
+                        <p>
+                        <p><strong>Input:</strong> x=10</p>
+                        <p><strong>Output:</strong> false</p>
+                        <p><strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.
+                        </p>
+                        </p>
+                        <br><br>
+                        <p>
+                            <strong>Constraints:</strong>
+                        <ul>
+                            <code>-2 <sup>31</sup>&nbsp; &lt = x &lt = 2 <sup>31</sup>&nbsp; -1</code>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content-right">
+                <div class="code-editor-window"></div>
+                <div class="button">
+                    <button id="button1">Run</button>
+                    <button id="button2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
